@@ -1,0 +1,8 @@
+{
+    "label": "Guides",
+    "position": 3,
+    "link": {
+        "type": "generated-index",
+        "description": "Each part of Aquila: brokers, the subscription list, the subscription editor and the entity explorer."
+    }
+}

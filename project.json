@@ -1,0 +1,40 @@
+{
+  "project": {
+    "name": "Aquila",
+    "slug": "aquila",
+    "kind": "NGSI-LD subscription manager",
+    "headline": "Alerts for NGSI-LD context brokers.",
+    "tagline": "Define a condition once, and the broker notifies a URI every time an entity meets it.",
+    "description": "Aquila is a web application for the subscriptions of an NGSI-LD context broker. It builds valid subscriptions from a form, shows whether their notifications are delivered, and edits, pauses, resumes and deletes them. It has no backend and no database, does not receive the notifications, and does not store or forward context data.",
+    "features": ["Subscription editor", "Delivery state", "Entity explorer", "No backend"],
+    "keywords": ["NGSI-LD subscriptions", "alerts", "notifications", "smart city"],
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "programmingLanguage": "TypeScript",
+    "productPage": "https://velacontext.com"
+  },
+  "landing": {
+    "bannerAlt": "Wind farm, industrial site, city centre and residential district drawn as connected isometric tiles, the places whose context data a broker watches through Aquila's subscriptions",
+    "scope": "Aquila manages the subscriptions on the broker you choose: the broker sends the notifications, and Aquila does not receive them or store context data.",
+    "notice": "Beta, tested against Scorpio only, with no logins of its own. Read the [known limitations](/docs/known-limitations) first.",
+    "sovereignty": {
+      "lead": "Your alerts are subscriptions on your own broker, so they keep working, and stay readable, without Aquila.",
+      "standard": "Aquila is an NGSI-LD client that writes standard ETSI NGSI-LD subscriptions, so any NGSI-LD tool can read, change or remove what it created.",
+      "configLabel": "Your broker, your browser",
+      "config": "The subscriptions live on your broker and the list of brokers lives in your browser. The broker sends each notification straight to the URI you set."
+    },
+    "editions": "Aquila is open core. The FOSS edition is complete on its own: it creates, edits and monitors the subscriptions on your brokers without a licence key or account, and everything released in it stays in it. Pro adds a commercial licence, priority support and an SLA, and Hub runs Aquila fully managed as part of Vela Context Data Hub."
+  },
+  "readme": {
+    "whatItIs": "the web application that manages alerts as subscriptions on NGSI-LD context brokers",
+    "scope": "The pages cover getting started, running Aquila, every screen, the NGSI-LD subscription members it supports, the known limitations and the roadmap. Aquila implements NGSI-LD v1.9.1 (ETSI GS CIM 009).",
+    "standardBadge": "<img alt=\"ngsi-ld v1.9.1\" src=\"https://img.shields.io/badge/NGSI--LD-v1.9.1-orange\">"
+  },
+  "issues": {
+    "bugExamples": "A subscription saved wrong",
+    "goalInputs": "the subscription"
+  },
+  "docs": {
+    "firstVersion": "1.0.0-beta.1"
+  }
+}

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/vela-tools/aquila/security/policy
+    about: Never open a public issue for a vulnerability. Follow the responsible disclosure process in the Aquila security policy.
+  - name: Report a bug in Aquila itself
+    url: https://github.com/vela-tools/aquila/issues/new/choose
+    about: A subscription saved wrong, a crash, or a missing feature belongs in the main repository, not here.
+  - name: Contact Vela Tools
+    url: https://velacontext.com/contactus
+    about: Commercial enquiries, or anything else that should not be discussed in a public issue.
